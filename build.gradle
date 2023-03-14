@@ -17,6 +17,7 @@ dependencies {
 //    implementation 'org.apache.kafka:kafka-clients:3.0.0'
 //    implementation "org.slf4j:slf4j-simple:1.6.1"
     implementation group: 'org.apache.kafka', name: 'kafka_2.11', version: '0.11.0.0'
+    implementation(project(':Server'))
 
 
 
